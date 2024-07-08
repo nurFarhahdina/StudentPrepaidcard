@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Prepaid Card Information</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Prepaid Card Information</h1>
+        <form id="prepaidCardForm">
+            <label for="student_id">Enter Student ID:</label>
+            <input type="text" id="student_id" name="student_id" required>
+            <button type="submit">Check Balance</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+
+</body>
+</html>
